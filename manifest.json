@@ -1,0 +1,14 @@
+{
+	"name": "coding bug total - xuetianxia project",
+	"version": "1.0",
+	"manifest_version": 2,
+	"description": "extension project bug total",
+	"browser_action": {
+		"default_icon": "logo.png",
+		"default_title": "My task list",
+		"default_popup": "index.html"
+	},
+	"permissions": [
+		"https://coding.net/api/project/....(project_id)/activities"
+	]
+}
