@@ -218,4 +218,4 @@ function begin (project_id, user_id) {
 	}
 }
 
-begin(322192, 225138)
+begin(project_id, user_id)
