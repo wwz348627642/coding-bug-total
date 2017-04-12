@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		table {
+			width: 400px;
+			border-collapse: collapse;
+			border-radius: 6px;
+		}
+		
+		thead {
+			background: #6f5499;
+			color: #fff;
+			text-align: center;
+			line-height: 30px;
+			overflow: hidden;
+		}
+
+		tbody > tr:nth-child(2n) {
+			background: #cdbfe3;
+			text-align: center;
+			color: #fff;
+			line-height: 30px;
+		}
+
+		tbody > tr:nth-child(2n + 1) {
+			background: #af9de2;
+			text-align: center;
+			color: #fff;
+			line-height: 30px;
+		}
+
+		#wait {
+			font-size: 85%;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<thead>
+			<tr>
+				<td>姓名</td><td>创建数量</td><td>关闭数量</td>
+			</tr>
+		</thead>
+		<tbody id="content">
+			<tr id="wait">
+				<td colspan="3">
+					<span >正在加载请稍等...</span>
+				</td>
+			</tr>	
+		</tbody>
+	</table>
+	<script src="ajax.js"></script>
+</body>
+</html>
